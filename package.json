@@ -19,11 +19,14 @@
     "test:watch": "jest --watch",
     "build": "serverless webpack",
     "test:parse": "serverless invoke local --function mercuryParser --path fixtures/nytimes.json",
-    "test:html": "serverless invoke local --function parseHtml --path fixtures/html.json"
+    "test:html": "serverless invoke local --function parseHtml --path fixtures/html.json",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
-    "@postlight/mercury-parser": "^2.1.0",
-    "@types/aws-lambda": "^8.10.15"
+    "@postlight/mercury-parser": "^2.0.0",
+    "@types/aws-lambda": "^8.10.15",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/core": "7.3.3",
@@ -63,5 +66,6 @@
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "snyk": true
 }

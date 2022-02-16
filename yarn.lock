@@ -923,7 +923,7 @@
     dotenv "^6.2.0"
     node-fetch "^2.3.0"
 
-"@postlight/mercury-parser@^2.1.0":
+"@postlight/mercury-parser@^2.0.0":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@postlight/mercury-parser/-/mercury-parser-2.2.1.tgz#a2a601707e2f2da0b8d83f983f53422f8b58855e"
   integrity sha512-WsXHcVfbwlAb0HO1nZ3tS2ipNvLeLk9frJj3y5hn/NAeQfEJeRm9AtMrxpOJ11X8L4he+bRyjr1bpIPvQPWvCA==
@@ -1074,6 +1074,11 @@
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
+
+"@snyk/protect@^1.854.0":
+  version "1.854.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.854.0.tgz#0af3a3403e5bdc3e59e82f73505e4efb60116d50"
+  integrity sha512-r9txP409VydYhvxBvY3OUbdpSnc3E+vecV3AtoBT6PzT1Rv1vVKlgfuKwYUSSQwT2UT8F96InhvPT08PG8JXWA==
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
